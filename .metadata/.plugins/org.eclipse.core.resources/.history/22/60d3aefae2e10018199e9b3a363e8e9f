@@ -81,7 +81,35 @@ public class main {
 		}
 	}
 	
-
+//	public static void getFileLines(String filename) {
+//		
+////		String[] strings = new String[3];
+//		
+//		String line;
+//		BufferedReader filein;
+//		
+//		try {
+//			filein = new BufferedReader(new FileReader(filename));
+//			password = filein.readLine();
+//			createdTimestamp = filein.readLine();
+////			strings[2] = filein.readLine();
+//			
+//			
+//		} catch (FileNotFoundException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		
+//		
+//		
+//		
+////		return strings;
+//		
+//	
+//	}
 	
 	public static String toBase64(String s ) {
 			return toBase64(s.getBytes());

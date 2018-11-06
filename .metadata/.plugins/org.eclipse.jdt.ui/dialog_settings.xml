@@ -3,7 +3,7 @@
 	<item value="C:\Program Files (x86)\Java\jre1.8.0_71\lib" key="org.eclipse.jdt.ui.lastextjar"/>
 	<section name="FatJarPackageWizard">
 		<item value="C:\Users\sam.PROPER\workspace" key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION"/>
-		<item value="main - hashesandhashes" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
+		<item value="Main - hashesandhashes" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
 		<item value="C:\Users\sam.PROPER\Documents\java\hash.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
 		<item value="false" key="FatJarPackageWizardPage.ANTSCRIPT_SAVE"/>
 		<item value="2" key="FatJarPackageWizardPage.LIBRARY_HANDLING"/>
