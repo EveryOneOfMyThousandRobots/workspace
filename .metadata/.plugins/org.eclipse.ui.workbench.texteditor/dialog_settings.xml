@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="729" key="DIALOG_X_ORIGIN"/>
+		<item value="484" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="quoting" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="quoting"/>
+			<item value="q"/>
+			<item value="  &lt;/div&gt;"/>
+			<item value="&#x09;"/>
+			<item value="&lt;13,10&gt;"/>
+			<item value="&apos;"/>
+			<item value="&amp; |"/>
+			<item value="&#x09;&#x09;&#x09; This is an automated online sales report for &apos; &amp; CLIP(P:CurrentLabel) &#x0A;                                                &apos;.&lt;13,10&gt;The attached file contains a fully itemised list of the latest month&apos;&apos;s digital sales revenue &apos; &amp; |&#x0A;                                                &apos;and the total amount now owed to you by &apos;&amp; CLIP(L:ProcessCompany) &amp; |&#x0A;                                                &apos;&lt;13,10&gt;Please send us an invoice at your earliest convenience. Please note: &apos; &amp; |&#x0A;                                                &apos;&lt;13,10&gt;If you are a self billing customer, you do not need to send us an invoice.&apos; &amp; |&#x0A;                                                &apos;&lt;13,10&gt;The total amount is: (GBP) &apos; &amp;  ROUND(P:IodaTotal, .01) &amp; | !using the ioda total to display the individual&#x0A;                                                &apos;&lt;13,10&gt;&lt;13,10&gt;Our standard minimum amount for payment is £200 but this amount can also &apos; &amp; |       !label total&#x0A;                                                &apos;be inclusive of any outstanding combined physical sales amount due.&apos;&amp;|&#x0A;                                                &apos;&lt;13,10&gt;You must however differentiate digital sales revenue from physical sales revenue on any invoices posted.&apos; &amp; |&#x0A;                                                &apos;&lt;13,10&gt;&lt;13,10&gt;Regards,&lt;13,10&gt;&apos; &amp; CLIP(L:ProcessCompany)&#x0A;&#x09;&#x09;&lt;/style&gt;"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,11 @@
+15:00:03 **** Incremental Build of configuration Debug for project MyFirstProject ****
+Info: Internal Builder is used for build
+cl /c /EHs /MD /Zi /nologo /Fosomething.obj "..\\something.c" 
+Cannot run program "cl": Launching failed
+
+Error: Program "cl" not found in PATH
+PATH=[C:/Program Files/Java/jre1.8.0_71/bin/server;C:/Program Files/Java/jre1.8.0_71/bin;C:/Program Files/Java/jre1.8.0_71/lib/amd64;C:\Program Files (x86)\Google\Chrome\Application;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Hewlett-Packard\HP ProtectTools Security Manager\Bin\;c:\Program Files\WIDCOMM\Bluetooth Software\;c:\Program Files\WIDCOMM\Bluetooth Software\syswow64;;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\SQL Anywhere 11\bin64;C:\Program Files\SQL Anywhere 11\bin32;C:\Program Files (x86)\Skype\Phone\;C:\Users\sam.PROPER\Downloads;]
+
+
+15:00:03 Build Finished (took 66ms)
+

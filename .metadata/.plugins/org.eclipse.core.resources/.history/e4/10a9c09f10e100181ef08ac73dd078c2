@@ -1,0 +1,76 @@
+package hashesandhashes;
+
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.Base64;
+import java.io.*;
+
+
+
+
+
+public class main {
+	
+	public static String[] getFileLines(String filename) {
+		
+		String[] strings = new String[3];
+		
+		String line;
+		BufferedReader filein;
+		
+		try {
+			filein = new BufferedReader(new FileReader(filename));
+			strings[0] = filein.readLine();
+			strings[1] = filein.readLine();
+			strings[2] = filein.readLine();
+			
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+		return strings;
+		
+	
+	}
+
+	public static String encode(String s) {
+		String base64String="";
+		Base64.Encoder b64 = Base64.getEncoder();
+		MessageDigest sha;
+		try {
+			sha = MessageDigest.getInstance("SHA-1");
+			sha.reset();
+			sha.update("hammers".getBytes());
+			base64String = b64.encodeToString(sha.digest());
+//			System.out.println(p + " " +p.length());
+//			System.out.println(sha.digest().toString());
+//			for (int i = 0; i < sha.digest().length; i += 1) {
+//				System.out.println(sha.digest()[i]);
+//			}
+		} catch (NoSuchAlgorithmException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return base64String;
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+
+		
+
+	}
+
+}

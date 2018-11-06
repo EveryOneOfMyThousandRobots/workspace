@@ -1,0 +1,2 @@
+GLOBAL_CLOAKING_EXTENSIONS=CVS;.git;.tmp*~;.DS_Store;.svn;.settings
+eclipse.preferences.version=1

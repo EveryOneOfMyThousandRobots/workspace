@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;phpdownloadlinks/dl.php&apos; to &apos;index.php&apos;" description="Rename resource &apos;dl.php&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="dl.php" name="index.php" stamp="1490605935776" updateReferences="true"/>
+</session>
