@@ -48,12 +48,10 @@ public class main {
 			if (createdTimestamp.length() > 0 && password.length() > 0) {
 				ArrayList<String> list = new ArrayList<String>();
 				String pwd = encode(nonce+createdTimestamp+encode(password));
-//				out(pwd);
-				list.add("timestamp\t"+createdTimestamp);
-				list.add("outputPath\t"+filename);
-				list.add("base64Nonce\t"+toBase64(nonce));
-				list.add("nonce\t"+nonce);
-				list.add("digest\t"+pwd);
+				out(pwd);
+				list.add("base64Nonce:"+toBase64(nonce));
+				list.add("nonce:"+nonce);
+				list.add("digest:"+pwd);
 				writeToFile(filename, list);
 				
 				
@@ -72,7 +70,7 @@ public class main {
 	
 	
 	public static void writeToFile(String filename, List<String> lines) {
-		Path file = Paths.get(filename);
+		Path file = Paths.get(filename + ".out");
 		try {
 			Files.write(file, lines, Charset.forName("UTF-8"));
 		} catch (IOException e) {
