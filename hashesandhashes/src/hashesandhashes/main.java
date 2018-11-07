@@ -105,7 +105,7 @@ public class main {
 		try {
 			sha = MessageDigest.getInstance("SHA-1");
 			sha.reset();
-			sha.update("hammers".getBytes());
+			sha.update(s.getBytes());
 			base64String = toBase64(sha.digest());
 //			System.out.println(p + " " +p.length());
 //			System.out.println(sha.digest().toString());
