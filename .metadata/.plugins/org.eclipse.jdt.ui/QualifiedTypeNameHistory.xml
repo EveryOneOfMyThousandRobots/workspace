@@ -20,4 +20,5 @@
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.util.Base64.Decoder"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="jtest.JCrypt"/>
 </qualifiedTypeNameHistroy>

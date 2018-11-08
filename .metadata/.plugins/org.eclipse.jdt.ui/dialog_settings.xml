@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item value="C:\Program Files (x86)\Java\jre1.8.0_71\lib" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="C:\Users\sam.PROPER\Desktop\DELETE ME\soapui-next" key="org.eclipse.jdt.ui.last.external.project"/>
 	<section name="FatJarPackageWizard">
 		<item value="C:\Users\sam.PROPER\workspace" key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION"/>
 		<item value="Main - hashesandhashes" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
