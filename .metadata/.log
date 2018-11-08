@@ -3065,3 +3065,38 @@ org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 !SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2018-11-08 11:13:24.706
 !MESSAGE Provided SVN information does not match that on disk for project 'com.samrae.jtools'.
+
+!ENTRY org.eclipse.ui 4 4 2018-11-08 11:16:24.755
+!MESSAGE Plug-in 'org.eclipse.cdt.ui' contributed an invalid Menu Extension (Path: 'project/org.eclipse.cdt.ui.prjmenu' is invalid): org.eclipse.cdt.ui.manageConfigsAction2
+
+!ENTRY org.eclipse.ui 4 4 2018-11-08 11:16:24.755
+!MESSAGE Plug-in 'org.eclipse.cdt.ui' contributed an invalid Menu Extension (Path: 'project/org.eclipse.cdt.ui.prjmenu' is invalid): org.eclipse.cdt.ui.buildConfigMenuAction
+
+!ENTRY org.eclipse.ui 4 4 2018-11-08 11:16:24.765
+!MESSAGE Plug-in 'org.eclipse.cdt.ui' contributed an invalid Menu Extension (Path: 'project/org.eclipse.cdt.ui.prjmenu' is invalid): org.eclipse.cdt.ui.wsselection
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2018-11-08 11:22:19.975
+!MESSAGE Could not auto-share project com.samrae.hash
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 'com.samrae.hash'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2018-11-08 11:22:19.975
+!MESSAGE Provided SVN information does not match that on disk for project 'com.samrae.hash'.
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-11-08 11:22:20.065
+!MESSAGE An internal error occurred during: "Auto share git projects".
+!STACK 0
+java.lang.IllegalArgumentException: Attempted to beginRule: R/, does not match outer scope rule: MultiRule[P/com.samrae.hash]
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:134)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:333)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:85)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:307)
+	at org.eclipse.team.core.RepositoryProvider.map(RepositoryProvider.java:94)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.connectProject(ConnectProviderOperation.java:166)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:105)
+	at org.eclipse.egit.core.internal.job.JobUtil$1.run(JobUtil.java:53)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

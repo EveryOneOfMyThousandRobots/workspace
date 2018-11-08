@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>hashesandhashes</name>
+	<name>com.samrae.hash</name>
 	<comment></comment>
 	<projects>
+		<project>com.samrae.jtools</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

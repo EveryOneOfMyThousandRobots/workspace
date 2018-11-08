@@ -20,14 +20,14 @@ public class JCrypt {
 	public static byte[] getSHA1(String s) {
 		return getSHA1(s.getBytes());
 	}
-	
+
 	public static byte[] fromBase64(String s) {
 		Base64.Decoder b64 = Base64.getDecoder();
 		return b64.decode(s);
 	}
-	
+
 	public static String SHA1toString(byte[] bytes) {
-		
+
 		try {
 			return new String(bytes, "UTF-8");
 		} catch (UnsupportedEncodingException e) {
@@ -35,9 +35,17 @@ public class JCrypt {
 			e.printStackTrace();
 		}
 		return null;
-	
+
 	}
- 
+
+	public static String getSHA1Base64(byte[] ba) {
+		return toBase64(getSHA1(ba));
+	}
+	
+	public static String encode(String s) {
+		return getSHA1Base64(s.getBytes());
+	}
+
 	public static byte[] getSHA1(byte[] ba) {
 
 		byte[] bytes = null;
