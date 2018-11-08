@@ -3043,3 +3043,25 @@ java.net.UnknownHostException: download.aptana.com
 
 !ENTRY org.eclipse.ui.navigator.resources 4 0 2018-11-08 11:02:42.945
 !MESSAGE Could not acquire INavigatorContentService: Project Explorer not found.
+
+!ENTRY com.aptana.git.core 4 0 2018-11-08 11:04:21.132
+!MESSAGE (Build 3.6.0) [ERROR]  Unable to run update-index: 
+
+!ENTRY com.aptana.git.core 4 1 2018-11-08 11:04:21.132
+!MESSAGE Errors occurred while refreshing git index
+!SUBENTRY 1 com.aptana.core 4 128 2018-11-08 11:04:21.132
+!MESSAGE 
+
+!ENTRY org.eclipse.equinox.security 1 0 2018-11-08 11:05:15.595
+!MESSAGE New keyring password generated. 
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2018-11-08 11:13:24.706
+!MESSAGE Could not auto-share project com.samrae.jtools
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 'com.samrae.jtools'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2018-11-08 11:13:24.706
+!MESSAGE Provided SVN information does not match that on disk for project 'com.samrae.jtools'.
