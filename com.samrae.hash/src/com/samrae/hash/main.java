@@ -1,18 +1,15 @@
 package com.samrae.hash;
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.util.ArrayList;
-import java.util.Base64;
-import java.util.Date;
-import java.util.List;
-import java.util.Random;
-import java.io.*;
+import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import com.samrae.jtools.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+import com.samrae.jtools.JCrypt;
 
 
 
@@ -33,7 +30,8 @@ public class main {
 		
 //		out(makeNonce());
 		Random rng = new Random();
-		nonce = Long.toHexString(rng.nextLong());
+		nonce = Long.toHexString(rng.nextLong()) + Long.toHexString(rng.nextLong());
+		nonce = nonce.substring(0,16);
 		
 //		out(r + " " + r.length());
 		
@@ -55,7 +53,11 @@ public class main {
 				list.add("base64Nonce\t"+JCrypt.toBase64(nonce));
 				list.add("nonce\t"+nonce);
 				list.add("digest\t"+pwd);
+				for (String s : list) {
+					out(s);
+				}
 				writeToFile(filename, list);
+
 				
 				
 				
